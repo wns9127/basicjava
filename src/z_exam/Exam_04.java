@@ -26,6 +26,7 @@ public class Exam_04 {
 		  
 	
 		 */
+//		asdasdas
 		
 			
 		
