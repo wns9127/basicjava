@@ -1,6 +1,6 @@
 package c_sentence;
 
-public class sentence_01 {
+public class Sentence_01 {
 	public static void main(String[] args) {
 		/*
 		
@@ -118,7 +118,7 @@ public class sentence_01 {
 		 */
 		
 //		1. 1~5 사이의 랜덤한 정수값을 변수 aa에 저장해주세요
-		int aa = (int)(Math.random()*6);
+		int aa = (int)(Math.random()*5+1);
 		System.out.println(aa);
 //		2. aa값이 1이면 "강남의 32평 아파트 당첨"
 //		3. aa값이 2이면 "람보르기니"
@@ -135,9 +135,9 @@ public class sentence_01 {
 			break;
 		case 4 : System.out.println("자건거 당첨"); 
 			break;
-		case 5 : System.out.println("영민빌딩내놔");
-			break;
-		default :  System.out.println("꽝");	
+		default : System.out.println("영민빌딩내놔");
+			
+		
 				
 		}
 		
@@ -153,12 +153,20 @@ public class sentence_01 {
 //		int point = 100;
 		System.out.println(point);
 		switch(point/10){
-		case 10 : System.out.println("A");break;
-		case 9 : System.out.println("A");break;
-		case 8 : System.out.println("B");break;
-		case 7 : System.out.println("C");break;
-		case 6 : System.out.println("D");break;
-		default : System.out.println("나가");
+		case 10 : case 9 : 
+			System.out.println("A");
+			break;			
+		case 8 : 
+			System.out.println("B");
+			break;
+		case 7 : 
+			System.out.println("C");
+			break;
+		case 6 : 
+			System.out.println("D");
+			break;
+		default : 
+			System.out.println("나가");
 		}
 		
 		
